@@ -133,7 +133,7 @@ public class NumberTriangle {
 
             line = line.trim();
 
-            if (line.length() != 0) {
+            if (!line.isEmpty()) {
                 String[] nums = line.split("\\s+");
                 List<NumberTriangle> curRow = new ArrayList<>();
 
